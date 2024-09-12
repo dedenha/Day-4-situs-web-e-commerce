@@ -1,0 +1,11 @@
+/* Mengatur margin di bagian produk */
+.section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/* Menambahkan hover efek untuk kartu produk */
+.card:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}

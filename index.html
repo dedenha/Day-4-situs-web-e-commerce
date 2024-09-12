@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tokowedia</title>
+    <!-- Menghubungkan Bulma CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <!-- Custom CSS (opsional) -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Navbar: Bagian navigasi atas -->
+    <nav class="navbar is-light">
+        <div class="container">
+            <div class="navbar-brand">
+                <a class="navbar-item" href="#">
+                    <strong>Tokowedia</strong>
+                </a>
+                <span class="navbar-burger" data-target="navbarMenu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </span>
+            </div>
+            <div id="navbarMenu" class="navbar-menu">
+                <div class="navbar-end">
+                    <a class="navbar-item" href="#">Home</a>
+                    <a class="navbar-item" href="#">Products</a>
+                    <a class="navbar-item" href="#">About</a>
+                    <a class="navbar-item" href="#">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Banner: Bagian dengan gambar besar dan judul -->
+    <section class="hero is-dark is-medium">
+        <div class="hero-body">
+            <div class="container has-text-centered">
+                <h1 class="title">Selamat Datang di Tokowedia</h1>
+                <p class="subtitle">Temukan Produk Terbaik Kami dengan Harga Terjangkau</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bagian Produk -->
+    <section class="section">
+        <div class="container">
+            <h2 class="title has-text-centered">Daftar Produk</h2>
+            <div class="columns is-multiline">
+                <!-- Produk 1 -->
+                <div class="column is-one-third">
+                    <div class="card">
+                        <div class="card-image">
+                            <figure class="image is-4by3">
+                                <img src="https://cf.shopee.co.id/file/854665afd8195a480e4785278718e9bb"
+                                 alt="Produk 1">
+                            </figure>
+                        </div>
+                        <div class="card-content">
+                            <div class="media">
+                                <div class="media-content">
+                                    <p class="title is-5">Sepatu Sneakers Wanita Putih Dekorasi lebah Dua</p>
+                                    <p class="subtitle is-6">Rp 100.000</p>
+                                </div>
+                            </div>
+                            <div class="content">
+                                Bahan : Kulit Imitasi
+Bahan Sol : Karet
+tinggi hak : 4.5cm
+Paket berisi : 1 pasang sepatu tanpa kotak
+....
+
+                                <br>
+                                <a href="#" class="button is-primary mt-3">Beli Sekarang</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Produk 2 -->
+                <div class="column is-one-third">
+                    <div class="card">
+                        <div class="card-image">
+                            <figure class="image is-4by3">
+                                <img src="https://cf.shopee.co.id/file/645485915a68eac3c5725dcb8028b953"
+                                 alt="Produk 2">
+                            </figure>
+                        </div>
+                        <div class="card-content">
+                            <div class="media">
+                                <div class="media-content">
+                                    <p class="title is-5">TAS RANSEL KULIT COWOK TAS LAPTOP PRIA BAGPACK KULIT</p>
+                                    <p class="subtitle is-6">Rp 200.000</p>
+                                </div>
+                            </div>
+                            <div class="content">
+                                Material : Kulit PU Premium
+Size : 26,5 x 17 x 40 (P x L x T)
+Color : Khaki
+....
+
+<view class=""></view>
+                                <br>
+                                <a href="#" class="button is-primary mt-3">Beli Sekarang</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Produk 3 -->
+                <div class="column is-one-third">
+                    <div class="card">
+                        <div class="card-image">
+                            <figure class="image is-4by3">
+                                <img src="https://cf.shopee.co.id/file/455130294216786b32e522a8606ebe51"
+                                 alt="Produk 3">
+                            </figure>
+                        </div>
+                        <div class="card-content">
+                            <div class="media">
+                                <div class="media-content">
+                                    <p class="title is-5">Baju Batik Kemeja Batik Lengan Panjang Pria Songket Diamond Biru</p>
+                                    <p class="subtitle is-6">Rp 300.000</p>
+                                </div>
+                            </div>
+                            <div class="content">
+                                bahan katun atau bahan rayon. 
+                                Bahan-bahan tersebut memberikan kenyamanan saat ....
+                                <br>
+                                <a href="#" class="button is-primary mt-3">Beli Sekarang</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer: Bagian bawah halaman -->
+    <footer class="footer">
+        <div class="content has-text-centered">
+            <p>&copy; 2024 Tokowedia. All Rights Reserved.</p>
+            <nav>
+                <a href="#">Kebijakan Privasi</a> | <a href="#">Syarat dan Ketentuan</a>
+            </nav>
+        </div>
+    </footer>
+
+    <!-- Menghubungkan JavaScript Bulma -->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // Toggle the navbar menu on mobile
+            const burger = document.querySelector('.navbar-burger');
+            const menu = document.querySelector('#navbarMenu');
+            burger.addEventListener('click', () => {
+                burger.classList.toggle('is-active');
+                menu.classList.toggle('is-active');
+            });
+        });
+    </script>
+</body>
+</html>
